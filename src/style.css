@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list > * {
+  margin: 2px;
+  padding: 6px 8px;
+  border: 2px gray;
+  border-style: dashed;
+}
